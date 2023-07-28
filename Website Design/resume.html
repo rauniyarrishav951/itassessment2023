@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>University Website Design</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+<link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<section class="sub-header">
+		<nav>
+			<a href="index.html"><img src="Images\Hello.png" width="50%" height="20%"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="gallery.html">GALLERY</a></li>
+					<li><a href="">RESUME</a></li>
+					<li><a href="blog.html">BLOG</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+          <li><a href="Protfolio.html">PROTFOLIO</a></li>
+					
+		        </ul>
+	        </div>
+	    
+
+
+
+
+	<i class="fa fa-bars" onclick="showMenu()"></i>
+
+</nav>
+<h1> Lets Skills </h1>
+<h2>Together</h2>
+  <table>
+    <tr>
+      <th colspan="4" style="background-color: yellow">Skill Category</th>
+    </tr>
+    <tr>
+      <th style="background-color: blue">Category</th>
+      <th style="background-color: violet;">Skill</th>
+      <th colspan="2" style="background-color: pink">Skills</th>
+    </tr>
+    <tr>
+      <td rowspan="3">Technical Skills</td>
+      <td style="background-color: blue">Programming Languages</td>
+      <td style="background-color: orange;">HTML</td>
+      <td style="background-color: red">CSS</td>
+    </tr>
+    <tr>
+      <td style="background-color: blue">Frameworks</td>
+      <td style="background-color: green">React</td>
+      <td style="background-color: blue">Node.js</td>
+    </tr>
+    <tr>
+      <td style="background-color: blue">Database</td>
+      <td colspan="2" style="background-color: seagreen;">MySQL</td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="background-color: blue">Soft Skills</td>
+      <td style="background-color: blue">Communication</td>
+      <td colspan="2" style="background-color: blue">Excellent verbal and written communication skills</td>
+    </tr>
+    <tr>
+      <td style="background-color: mediumpurple">Teamwork</td>
+      <td colspan="2" style="background-color: seagreen;">Ability to work collaboratively in a team environment</td>
+    </tr>
+  </table>
+  
+  <h2 style="background-color: yellow">Experience</h2>
+  <table>
+    <tr>
+      <th  style="background-color: blueviolet;">Company</th>
+      <th  style="background-color: blueviolet;">Position</th>
+      <th  style="background-color: blueviolet;">Duration</th>
+    </tr>
+    <tr>
+      <td style="background-color: Orange">ABC Company</td>
+      <td  style="background-color: Orange">Web Developer</td>
+      <td  style="background-color: Orange">2018-2020</td>
+    </tr>
+    <tr>
+      <td  style="background-color: Orange">XYZ Inc.</td>
+      <td  style="background-color: Orange">Frontend Developer</td>
+      <td  style="background-color: Orange">2016-2018</td>
+    </tr>
+  </table>
+</body>
+</html>
+
+
+
+
+
+
+				
+
+
+
+
+
+<!----Footer---->
+
+<section class="footer">
+	<h4> About Us</h4>
+	<p> rauniyarrishav951@gmail.com , 9844983568</p>
+  <p>Find Me on <a href="https://github.com/rauniyarrishav951"><i class="fa fa-github"></i>
+</a></p>
+	<div class="icons">
+		<i class="fa fa-facebook"></i>
+		<i class="fa fa-twitter"></i>
+		<a href="https://www.instagram.com/rauniyarrishav951"><i class="fa fa-instagram"></i></a>
+		<i class="fa fa-linkedin"></i>
+    <a href="https://www.youtube.com/watch?v=ca2ME4Wy0eM"><i class="fa fa-youtube" ></i></a>
+
+	</div>
+	<p> Made with <i class="fa fa-heart-o"></i> by Rishav Rauniyar</p>
+</section>
+
+
+
+
+	
+
+
+
+
+
+<!-------JavaScript for Toggle Me----->
+<script>
+	var navLinks=document.getElementByID("navLinks");
+
+	function showMenu() {
+		navLinks.style.right="0";
+	}
+
+	function hideMenu() {
+		navLinks.style.right="-200px";
+
+	}
+</script>
+
+
+</body>
+</html>
