@@ -1,0 +1,77 @@
+<html> 
+<head> 
+  <title>Set table alternative row background colour using JavaScript</title> 
+</head> 
+<body> 
+  <table align="center" id="tblMain" style="border: solid 1px black;" cellpadding="0" 
+  cellspacing="0" width="200px" border=1 cellpadding=0 cellspacing=5>
+  <th> 
+  S.N.
+  </th> 
+  <th>
+    Name
+  </th>
+  <th>
+    Image
+  </th>
+  <tr> 
+  <td> 
+   1 
+  </td> 
+  <td>
+  Name 1
+</td>
+<td>
+  1.jpg
+</td>
+    </tr> 
+  <tr> 
+  <td> 
+  2
+  </td> 
+  <td>
+    Name 2
+  </td>
+  <td>
+    2.jpg
+  </td>
+  </tr> 
+  <tr> 
+  <td> 
+  3
+  </td> 
+  <td>
+    Name 3
+  </td>
+  <td>
+    3.jpg
+  </td>
+</tr>
+<tr>
+  <td>
+    4
+  </td>
+  <td>
+    Name 4
+  </td>
+  <td>
+    4.jpg
+  </td>
+  </tr> 
+  
+  </table> 
+  <script language="javascript"> 
+  var tbl = document.getElementById("tblMain"); 
+  if (tbl != null) { 
+  if (tbl.rows[0] != null) { 
+  tbl.rows[0].style.backgroundColor = "#365890"; 
+  tbl.rows[0].style.color = "#FFFFFF"; 
+   } 
+  for (var i = 1; i < tbl.rows.length; i++) { 
+  if (i % 2 == 0) 
+  tbl.rows[i].style.backgroundColor = "#365890"; 
+  } 
+  } 
+  </script> 
+</body> 
+</html> 
